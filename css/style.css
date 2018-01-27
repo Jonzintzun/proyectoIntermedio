@@ -1,0 +1,80 @@
+body {
+	display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+main {
+	flex: 1 0 auto;
+}
+
+.linea li{
+  	display: inline;
+}
+
+.video{
+	margin-top: 25px;
+	margin-left: 50px;
+	box-shadow: 10px 10px 5px #004d40;
+	height: auto;
+	width: 100%;
+}
+
+.margen{
+	margin-top: 3%;
+}
+
+#galeria{
+	width: 480px;
+	height: 320px;
+}
+
+.principal{
+	font-family: 'Kaushan Script', cursive;
+}
+
+.inicio{
+    font-family: 'Kalam', cursive;
+}
+
+.habitacion{
+    font-family: 'Bangers', cursive;
+}
+
+.texthab{
+	font-family: 'Kavivanar', cursive;
+}
+
+.logo{
+	height: auto;
+
+}
+
+/*para laptop*/
+@media screen and (max-width: 1800px) and (min-width: 1280px) {
+	#galeria{ width: auto; height: auto;}
+	.video{	width: 700px; height: 500px;}	
+	.logo{ height: 64px;}	
+}
+
+/*para tablets*/
+@media screen and (max-width: 1280px) and (min-width: 600px) {
+	#galeria{ width: auto; height: auto;}
+	.video{	width: 600px; height: 400px;}
+	.logo{ height: 64px;}		
+}
+
+/*para celulares media query*/
+@media screen and (max-width: 600px) and (min-width: 320px) {
+	#galeria{ width: 290px; height: auto;}
+	.video{	width: 220px; height: auto;}
+	.logo{ height: 56px;}	
+	
+}
+
+@media screen and (max-width: 320px) and (min-width: 0px) {
+	#galeria{ width: 240px; height: auto;}
+	.video{	width: 200px; height: auto;}
+	.logo{ height: 56px;}	
+}
+

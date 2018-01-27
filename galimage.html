@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<link rel="icon" href="img/icon.png">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<link rel="stylesheet" href="css/materialize.min.css">
+	<link rel="stylesheet" href="css/style.css">
+	<meta charset="UTF-8">
+	<title>Galería</title>
+</head>
+<body>
+	<nav class="#455a64 blue-grey darken-2">
+	   <div class="nav-wrapper container">
+	   <a href="index.html" class="brand-logo"><img class="logo" src="img/logo.jpg" alt="LOGO"></a>
+	     <a href="index.html" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+	     <ul class="right hide-on-med-and-down ">
+	       <li><a href="habitacion.html">Habitaciones</a></li>
+	       <li><a href="restaurante.html">Restaurantes y Bares</a></li>
+	       <li><a href="galimage.html">Galería</a></li>
+	       <li><a href="contacto.html">Contacto</a></li>
+	     </ul>
+	     <ul class="side-nav" id="mobile-demo">
+	       <li><a href="habitacion.html">Habitaciones</a></li>
+	       <li><a href="restaurante.html">Restaurantes y Bares</a></li>
+	       <li><a href="galimage.html">Galería</a></li>
+	       <li><a href="contacto.html">Contacto</a></li>
+	     </ul>
+	   </div>
+	 </nav>
+
+
+	 <div class="carousel">
+	   <a class="carousel-item" id="galeria" href="#one!"><img src="img/g1.jpg"></a>
+	   <a class="carousel-item" id="galeria" href="#two!"><img src="img/g2.jpg"></a>
+	   <a class="carousel-item" id="galeria" href="#three!"><img src="img/g3.jpg"></a>
+	   <a class="carousel-item" id="galeria" href="#four!"><img src="img/g4.jpg"></a>
+	   <a class="carousel-item" id="galeria" href="#five!"><img src="img/g5.jpg"></a>
+	   <a class="carousel-item" id="galeria" href="#one!"><img src="img/g6.jpg"></a>
+	   <a class="carousel-item" id="galeria" href="#two!"><img src="img/g7.jpg"></a>
+	   <a class="carousel-item" id="galeria" href="#three!"><img src="img/g8.jpg"></a>
+	   <a class="carousel-item" id="galeria" href="#four!"><img src="img/g9.jpg"></a>
+	 </div>
+
+	<main></main>
+
+	<footer class="page-footer #455a64 blue-grey darken-2 ">
+	          <div class="container">
+	            <div class="row">
+	              <div class="col l6 s12 ">
+	                <h6 class="white-text"><b>Grand Fiesta Americana Coral Beach Cancun</b></h6>
+	                <ul class="grey-text text-lighten-4">
+	                	<li>Blvd. Kukulcán km. 9.5 Zona Hotelera 77500</li>
+	                	<li>Cancún Quintana Roo, México</li>        
+	                	<hr>
+	                	<li>Teléfono: 56 88 32 00 </li>
+	                	<li>Correo: grandCoralBeach@gmail.com </li>
+	                </ul>
+	              </div>
+	              <div class="col l4 offset-l2 s12 linea center-align input-field">
+	                <h5 class="white-text">Siguenos en</h5>
+	                <ul>
+	                  <li><a class="grey-text text-lighten-3" href="#!"><img src="img/fb.png" alt="Facebook"></a></li>
+	                  <li><a class="grey-text text-lighten-3" href="#!"><img src="img/tw.png" alt="Twitter"></a></li>
+	                  <li><a class="grey-text text-lighten-3" href="#!"><img src="img/you.png" alt="Youtube"></a></li>
+	                </ul>
+	              </div>
+	            </div>
+	          </div>
+	          <div class="footer-copyright">
+	            <div class="container">
+	            <b>© 2018 Zintzun Garcia Jonatan S.
+	             <a class="white-text text-lighten-4 right" href="https://www.facebook.com/jonzintzun">Facebook</b></a> 
+	            </div>
+	         </div>
+	</footer>
+	
+
+</body>
+<script src="js/jquery.js"></script>
+<script src="js/materialize.min.js"></script>
+<script>
+	$(document).ready(function(){
+	     $('.carousel').carousel();
+	   });
+	$(".button-collapse").sideNav();
+</script>
+</html>
